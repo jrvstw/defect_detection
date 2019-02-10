@@ -6,18 +6,23 @@ some modifications that recognize 4 different types of cracks.
 
 ## Requirements:
 
-* C++
-* Qt 4
+* C++ Compiler
+* Qt 4 development files
 
-## How to Run
+## Building executable
 
-Run these in the directory of this README file.
+Run these in the directory of this README file to build an executable.
 ```bash
 qmake-qt4 -project
 qmake-qt4
 make
-./defect_detection
 ```
+
+## Operating instructions
+
+* Space, right arrow to the next image.
+* Backspace, left key to the previous image.
+* Esc to close application.
 
 ## Author
 
